@@ -1,0 +1,13 @@
+#Задание 10
+number=input()
+print('номер рейса:',number)
+name_russian=input()
+print('название авиакомпании(на русском языке):',name_russian)
+name_english=input()
+print('название авиакомпании(на английском языке):',name_english)
+city_russian=input()
+print('город прилета (на русском языке):',city_russian)
+city_english=input()
+print('город прилета (на английском языке):',city_english)
+print('Заканчивается посадка на рейс',number,'авиакомпании',name_russian,'до',city_russian)
+print('This is the final boarding call for',name_english,'flight',number,'to',city_english)
