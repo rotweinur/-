@@ -1,0 +1,5 @@
+sweets=input()
+lst = sweets.split()
+N = int(lst[0])
+M = int(lst[1])
+print(N//M)
