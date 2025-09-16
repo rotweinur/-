@@ -1,2 +1,2 @@
-text=input().split()
-print(" ".join(text[::-1]))
+words=input().split()
+print(" ".join(words[::-1]))
